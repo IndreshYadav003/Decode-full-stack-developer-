@@ -1,0 +1,46 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Calculator</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="app.js">
+<style>
+</style>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <input type="button"class="btn cal-red" value="+" onclick="addToDisplay('+')">
+        <input type="button"class="btn cal-red" value="-" onclick="addToDisplay('-')">
+        <input type="button"class="btn cal-red" value="*" onclick="addToDisplay('*')">
+        <input type="button"class="btn cal-red" value="/" onclick="addToDisplay('/')">
+        <input type="button"class= "btn cal-red"value="%" onclick="addToDisplay('%')">
+        <input type="button"class= "btn cal-red" value="^" onclick="power()">
+        <input type="button"class="btn cal-red" value="√" onclick="sqrt()">
+
+        <input type="button"class="btn cal-green" value="1" onclick="addToDisplay('1')">
+        <input type="button"class="btn cal-green" value="2" onclick="addToDisplay('2')">
+        <input type="button"class="btn cal-green" value="3" onclick="addToDisplay('3')">
+        <input type="button"class="btn cal-green" value="4" onclick="addToDisplay('4')">
+        <input type="button"class="btn cal-green" value="5" onclick="addToDisplay('5')">
+        <input type="button"class="btn cal-green" value="6" onclick="addToDisplay('6')">
+        <input type="button"class="btn cal-green" value="7" onclick="addToDisplay('7')">
+        <input type="button"class="btn cal-green" value="8" onclick="addToDisplay('8')">
+        <input type="button"class="btn cal-green" value="9" onclick="addToDisplay('9')">
+        <input type="button"class="btn cal-green" value="0" onclick="addToDisplay('0')">
+       <input type="button"class="btn cal-green" value="." onclick="addToDisplay('.')">
+       <input type="button"class="btn cal-green" value="=" onclick="calculate()">
+
+        <input type="button"class="btn cal-www" value="C" onclick="clearDisplay()">
+    </div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
+
+</body>
+</html>
