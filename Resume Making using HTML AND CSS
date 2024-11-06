@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css" />
+<style>
+body{
+  padding: 5px;
+  background-color: aqua;
+}
+.title {
+	color: #5C6AC4;
+}
+.res{
+  text-align: center;
+}
+#tab,tr,td,th{
+  border:solid ;
+}
+</style>  
+</head>
+  <body>
+<h1 class="res">Resume</h1>
+<h4>Indresh Yadav</h4>
+<h4>indreshyadav@2123gmail.com</h4>
+<h4>7307333409</h4>
+<h2>Objective</h2>
+<p>Seeking a challenging and rewarding
+opportunity with a software engineering firm to use and grow my coding skills. <p>
+<h2>Skills</h2>
+<ul><li>java</li>
+<li>Python</li>
+<li>C</li>
+<li>Java Script</li></ul>
+<p>Mern Stack,Backed using java Script,pyhton with AI,html,CSS,SQL</p>
+<h2>Educational Qualification </h2>
+<table id="tab">
+  <th> Course</th>
+   <th>University/board</th>
+    <th>Passing Year </th>
+     <th>Percentage</th>
+     <tr>
+     <td>B.Tech(CSE)</td>
+     <td>AKTV</td>
+     <td>1st Year</td>
+     <td>9.0</td></tr>
+       <tr>
+        
+     <td>B.Tech(CSE)</td>
+     <td>AKTV</td>
+     <td>2st Year</td>
+     <td>9.0</td></tr>
+         <tr>
+     <td>12</td>
+     <td>UP</td>
+     <td>2021-22</td>
+     <td>8.0</td></tr>
+             <tr>
+     <td>10</td>
+     <td>UP</td>
+     <td> 2019-20</td>
+     <td>9.0</td></tr>
+</table>
+
+  </body>
+</html>
