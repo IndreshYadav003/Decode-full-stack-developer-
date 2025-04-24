@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic light</title>
+    <style>
+        #outer {
+            height: 250px;
+            width: 90px;
+            border: 5px solid rgb(206, 42, 42); 
+            margin: 10px;
+        }
+        .a{
+            height: 50px;
+            width: 40px;
+            border: 2px solid black;
+            margin: 20px;
+            border-radius: 50%;
+            background:red;
+
+        }
+        .b{
+            height: 50px;
+            width: 40px;
+            border: 2px solid black;
+          background:yellow;
+            margin: 20px;
+            border-radius: 50%;
+
+        }
+        .c{
+            height: 50px;
+            width: 40px;
+            border: 2px solid black;
+            margin: 20px;
+            border-radius: 50%;
+            background: green;
+    
+        }
+    </style>
+</head>
+<body>
+    <div id="outer"> 
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+    </div>
+</body>
+</html>
